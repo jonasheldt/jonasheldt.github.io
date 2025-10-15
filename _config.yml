@@ -14,7 +14,7 @@ github_username: IO-n-A
 # About Section
 about_profile_image: images/profile.png
 about_content: |
-  <p>I build production-grade AI & ML pipelines, market risk and forecasting models in Python/SQL: <br>time-series analysis and Quantum Signal Processing (QSP) for VaR/CVaR estimation.<br>Part-time graduate student at Harvard University — Harvard Extension School — in Data Science.</p>
+  <p>I build production-grade AI & ML pipelines, market risk and forecasting models in Python/SQL: <br>time-series analysis and Quantum Signal Processing (QSP) for VaR/CVaR estimation.<br>Part-time graduate student at Harvard University — Harvard Extension School — in Data Science.<br><br></p>
   <h3>Toolkit</h3>
   <ul>
   <li>scikit-learn - Machine learning library for Python</li>
@@ -31,9 +31,9 @@ about_content: |
   <li>ONNX - Open Neural Network Exchange format</li>
   <li>MLflow - Machine learning lifecycle management</li>
   <li>DVC - Data Version Control for ML projects</li>
-  <li>Weights & Biases - Experiment tracking and visualization<br><br></li>
+  <li>Weights & Biases - Experiment tracking and visualization<br><br><br><br></li>
   </ul>
-  <br><br></search>
+  
 
   <h3>Financial Engineering</h3>
   <ul>
