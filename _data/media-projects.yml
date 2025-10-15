@@ -1,7 +1,7 @@
 
 - layout: top-middle
   name: "AUTOMOTIVE"
-  link: https://mubi.com/de/gb/films/automotive-2020
+  link: https://mubi.com/en/gb/films/automotive-2020
   quote:   Machine Intelligence, Human Emotion, Supply-Chain Automation, AGVs, and work ethics in automotive factories.
   description: |
     A study of the smart factory at AUDI, Automotive examines the algorithmic transformation of car manufacturing and its impact on work through the lens of machine intelligence, cyber-physical systems, and autonomous logistics. It documents the shift from human-centered production to AGV-coordinated supply chains, where predictive analytics, sensor fusion, and robotic process automation synchronize every step of assembly.
@@ -21,7 +21,7 @@
 
 - layout: top-middle
   name: "TRACKERS"
-  link: https://www.hff-muenchen.de/de_DE/film-detail/trackers.3958
+  link: https://www.hff-muenchen.de/en_EN/film-detail/trackers.3958
   quote: >
     Algorithms, Computer Vision, Identity — sci-fi short inspired by the cypherpunk manifesto.
   description: |
