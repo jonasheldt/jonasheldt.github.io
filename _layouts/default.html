@@ -1,0 +1,281 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }} | {{ site.title }}</title><!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+<meta property="og:title" content="{{ site.title }}" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="{{ site.title }}" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"{{ site.title }}","name":"{{ site.title }}","url":"{{ site.url }}/"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}">
+</head>
+<body class=""><div class="container header-container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>{{ site.name }}</h1>
+      <h2>{{ site.title }}</h2>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons no-print"><li>
+            <a target="_blank" href="https://github.com/{{ site.github_username }}" class="button button--sacnite button--round-l">
+              <i class="fab fa-github" title="Github link"></i>
+            </a>
+          </li>
+      </ul><p>
+          Email: <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a>
+        </p><p>
+          Web: 
+<a href="{{ site.website }}" target="_blank" class="">jonasheldt.github.io</a>
+        </p></div>
+  </div>
+</div>
+<main class="page-content" aria-label="Content">
+    <div class="wrapper"><div class="container intro-container">
+  
+  <div class="row clearfix"><div class="col-xs-12 col-sm-4 col-md-3 no-print">
+        <span class="profile-img" style="background-image: url('{{ site.about_profile_image | relative_url }}')"></span>
+      </div><div class="col-xs-12 col-sm-8 col-md-9 col-print-12">
+      {{ site.about_content | markdownify }}
+
+    </div>
+  </div>
+</div>
+{% for section in site.content %}
+  {% if section == "projects" %}
+<div class="container projects-container">
+  <h3 id="projects">{{ site.projects_title }}</h3>
+  
+    {% for project in site.data.projects %}
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>{{ project.name }}</h4>
+<a href="{{ project.link }}" target="_blank" class="link">{{ project.link }}</a><p class="no-print">
+        <a href="{{ project.github }}" target="_blank">
+          <i class="fa fa-github" title="{{ project.name }} Github link"></i>
+        </a>
+      </p></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">
+    {{ project.quote }}
+</p><p>{{ project.description }}</p>
+
+  </div>
+</div>
+
+    {% endfor %}
+  
+
+</div>
+  {% elsif section == "education" %}
+<div class="container education-container">
+  <h3 id="education">{{ site.education_title }}</h3>
+  
+    {% for education in site.data.education %}
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>
+    {{ education.name }}
+</h4><p><b>
+    {{ education.qualification }}
+</b></p><p>{{ education.dates }}</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">
+    {{ education.quote }}
+</p><p>{{ education.description }}</p>
+
+  </div>
+</div>
+
+    {% endfor %}
+  
+
+</div>
+  {% elsif section == "extracurriculars" %}
+<div class="container more-container">
+  <h3 id="extracurriculars">{{ site.more_title }}</h3>
+  <div class="row clearfix">
+    <div class="col-md-12">
+      {{ site.more_content | markdownify }}
+
+    </div>
+  </div>
+</div>
+  {% elsif section == "media-projects" %}
+<div class="container media-projects-container">
+  <h3 id="media-projects">{{ site.media_projects_title }}</h3>
+  
+    {% for project in site.data.media-projects %}
+    <div class="row clearfix layout layout-top-middle">
+  <div class="col-xs-12 col-print-12 details"><h4>{{ project.name }}</h4>
+<a href="{{ project.link }}" target="_blank" class="link">{{ project.link }}</a></div>
+  <div class="col-xs-12 col-print-12"><p class="quote">{{ project.quote }}
+</p><p>{{ project.description }}</p>
+
+  </div>
+</div>
+
+    {% endfor %}
+  
+
+</div>
+  {% elsif section == "awards" %}
+<div class="container awards-container">
+  <h3 id="awards">{{ site.awards_title }}</h3>
+  
+    {% for award in site.data.awards %}
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>{{ award.organization }}</h4><p><b>{{ award.award }}</b></p><p>{{ award.year }} - {{ award.result }}</p></div>
+     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">{{ award.quote }}</p><p>{{ award.description }}</p>
+{% if award.link %}<p><a href="{{ award.link }}" target="_blank" class="link">{{ award.link }}</a></p>{% endif %}
+      </div>
+    </div></search>
+</search_and_replace>
+
+    {% endfor %}
+  
+
+</div>
+  {% elsif section == "scholarships" %}
+<div class="container scholarships-container">
+  <h3 id="scholarships">{{ site.scholarships_title }}</h3>
+  
+    {% for scholarship in site.data.scholarships %}
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>{{ scholarship.organization }}</h4><p><b>{{ scholarship.scholarship }}</b></p><p>{{ scholarship.year }} {{ scholarship.result }}</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">{{ scholarship.quote }}</p><p>{{ scholarship.description }}</p>
+
+  </div>
+</div>
+
+    {% endfor %}
+  
+
+</div>
+  {% elsif section == "teaching-experience" %}
+<div class="container teaching-experience-container">
+  <h3 id="teaching-experience">{{ site.teaching_experience_title }}</h3>
+  
+    {% for experience in site.data.teaching-experience %}
+    <div class="row clearfix layout layout-left">
+  <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>{{ experience.organization }}</h4><p><b>
+    {{ experience.role }}
+</b></p><p>{{ experience.dates }}</p></div>
+  <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">
+    {{ experience.quote }}
+</p><p>{{ experience.description }}</p>
+
+  </div>
+</div>
+
+    {% endfor %}
+  
+
+</div>
+{% elsif section == "publications" %}
+<div class="container publications-container">
+  <h3 id="publications">{{ site.publications_title }}</h3>
+
+  {% for publication in site.data.publications %}
+  <div class="row clearfix layout layout-top-middle">
+    <div class="col-xs-12 col-print-12 details">
+      <h4>{{ publication.title }}</h4>
+      <a href="{{ publication.link }}" target="_blank" class="link">{{ publication.link }}</a>
+    </div>
+    <div class="col-xs-12 col-print-12">
+      <p class="quote">{{ publication.quote }}</p>
+      <p>{{ publication.description }}</p>
+
+      {% if publication.category %}<p><strong>Category:</strong> {{ publication.category }}</p>{% endif %}
+      {% if publication.outlet %}<p><strong>Outlet:</strong> {{ publication.outlet }}</p>{% endif %}
+      {% if publication.outlet_meta %}<p><strong>Outlet Meta:</strong> {{ publication.outlet_meta }}</p>{% endif %}
+      {% if publication.role %}<p><strong>Role:</strong> {{ publication.role }}</p>{% endif %}
+      {% if publication.authors %}<p><strong>Authors:</strong> {{ publication.authors | join: ", " }}</p>{% endif %}
+
+      {% if publication.secondary_links %}
+      <p><strong>Secondary Links:</strong></p>
+      <ul>
+        {% for link in publication.secondary_links %}
+        <li><a href="{{ link }}" target="_blank">{{ link }}</a></li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+      {% if publication.keywording %}<p><strong>Keywords:</strong> {{ publication.keywording | join: ", " }}</p>{% endif %}
+      {% if publication.tech %}<p><strong>Tech:</strong> {{ publication.tech | join: ", " }}</p>{% endif %}
+      {% if publication.econ %}<p><strong>Econ:</strong> {{ publication.econ | join: ", " }}</p>{% endif %}
+      {% if publication.location %}<p><strong>Location:</strong> {{ publication.location }}</p>{% endif %}
+      {% if publication.runtime %}<p><strong>Runtime:</strong> {{ publication.runtime }}</p>{% endif %}
+      {% if publication.language %}<p><strong>Language:</strong> {{ publication.language }}</p>{% endif %}
+      {% if publication.year %}<p><strong>Year:</strong> {{ publication.year }}</p>{% endif %}
+      {% if publication.project_ref %}<p><strong>Project Ref:</strong> {{ publication.project_ref }}</p>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% elsif section == "press" %}
+<div class="container press-container">
+  <h3 id="press">Press</h3>
+
+  {% for press_item in site.data.press %}
+  <div class="row clearfix layout layout-top-middle">
+    <div class="col-xs-12 col-print-12 details">
+      <h4>{{ press_item.title }}</h4>
+      <a href="{{ press_item.link }}" target="_blank" class="link">{{ press_item.link }}</a>
+    </div>
+    <div class="col-xs-12 col-print-12">
+      <p class="quote">{{ press_item.description }}</p>
+             {% if press_item.outlet %}<p><strong>Outlet:</strong> {{ press_item.outlet }}</p>{% endif %}
+       {% if press_item.outlet_meta.standing %}<p><strong>Standing:</strong> {{ press_item.outlet_meta.standing }}</p>{% endif %}
+       {% if press_item.outlet_meta.reach %}<p><strong>Reach:</strong> {{ press_item.outlet_meta.reach }}</p>{% endif %}</search>
+</search_and_replace>
+      {% if press_item.author %}<p><strong>Author:</strong> {{ press_item.author }}</p>{% endif %}
+      {% if press_item.year %}<p><strong>Year:</strong> {{ press_item.year }}</p>{% endif %}
+      {% if press_item.project_ref %}<p><strong>Project Ref:</strong> {{ press_item.project_ref }}</p>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+   {% elsif section == "experience" %}
+ <div class="container experience-container">
+   <h3 id="experience">{{ site.experience_title }}</h3>
+
+     {% for experience in site.data.experience %}
+     <div class="row clearfix layout layout-left">
+   <div class="col-xs-12 col-sm-4 col-md-3 col-print-12 details"><h4>{{ experience.company }}</h4><p><b>
+     {{ experience.job_title }}
+ </b></p><p>{{ experience.dates }}</p></div>
+   <div class="col-xs-12 col-sm-8 col-md-9 col-print-12"><p class="quote">
+     {{ experience.quote }}
+ </p><p>{{ experience.description }}</p>
+
+   </div>
+ </div>
+
+     {% endfor %}
+
+
+ </div>
+{% endif %}
+{% endfor %}
+
+
+</main>
+  
+  <div class="container footer-container">
+  <p>
+    {{ site.name }} -
+    <a href="mailto:{{ site.email }}" target="_blank">{{ site.email }}</a>&nbsp;- References, credentials on request</p>
+</div>
+</body>
+</html>

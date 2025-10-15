@@ -1,0 +1,45 @@
+- layout: left
+  organization: DocuMasterclass
+  link: https://www.do-xs.de/documasterclass/tag/jonas-heldt/
+  role: |
+    <em>Lecturer</em><br>
+    Documentary Masterclass
+  dates: 2019
+  quote: >
+    Practice-led workshop on contemporary documentary craft, from story development to production workflows.
+  description: | # this will include new lines to allow paragraphs
+    Designed and delivered an intensive masterclass covering research methods, narrative structure, ethics,
+    interview technique, and field production. Demonstrated end-to-end workflows (prep → shoot → edit),
+    budgeting and scheduling for small crews, and collaboration across editorial, production, and post.
+    Mentored participants with project feedback sessions and practical exercises.
+
+- layout: left
+  organization: Middle School Supply Teacher
+  link:
+  role: |
+    <em>Tutor</em><br>
+    Media Economics, Technology & Queer Film Tradition
+  dates: 2014
+  quote: >
+    How stories travel through platforms, who pays for what we watch, and how technology and film history shape our viewing of subculture.
+  description: | # this will include new lines to allow paragraphs
+    Designed and taught a classroom series introducing platform business models (subscriptions, ads, public service),
+    the media value chain (development → production → distribution), and how recommender systems boost discovery.
+    Hands-on activities included a simple production budget in spreadsheets, a mock “platform pitch,” and short-sequence
+    breakdowns of camera, sound, and edit decisions in "Independence Day" (Dir: Roland Emmerich, 1996) to convey subtext on gay marriage. 
+    A dedicated module traced milestones of queer cinema for age-appropriate discussion of representation, authorship, and context, 
+    using curated excerpts with guided reflection.
+
+- layout: left
+  organization: Community Tutoring
+  link:
+  role: |
+    <em>Tutor</em><br>
+    Mathematics
+  dates: Since high school — ongoing
+  quote: >
+    Long-term math tutoring for disadvantaged students with a focus on confidence, fundamentals, and exam readiness.
+  description: | # this will include new lines to allow paragraphs
+    Provide one-to-one and small-group tutoring in core mathematics (algebra, geometry, pre-calculus, calculus basics),
+    emphasizing problem-solving strategies and scaffolding for diverse learning needs. Develop personalized lesson plans,
+    diagnostic exercises, and exam preparation materials; track progress and coordinate with teachers and families when helpful.

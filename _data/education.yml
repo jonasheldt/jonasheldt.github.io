@@ -1,0 +1,59 @@
+# className: left
+- layout: left
+  name: |
+    Harvard University
+    <br> <em>Extension School</em>
+  dates: Graduation expected 05 / 2027
+  qualification: |
+    <em>Master Data Science</em>
+  quote: >
+    Advanced program in data science focusing on statistical methods, machine learning, and data analysis techniques
+  description: | # this will include new lines to allow paragraphs
+    Advanced statistical methods, machine learning algorithms, data visualization, and practical applications in data science. Focused on real-world projects involving data analysis, predictive modeling, and computational techniques for large-scale data processing.
+
+- layout: left
+  name: |
+    MIT
+    <br> <em>Sloan School of Management</em>
+  dates: Graduation expexted 05 / 2026
+  qualification: |
+    <em>MicroMaster Finance</em>
+  quote: >
+    Advanced program from Massachusetts Institute of Technology (MIT) Sloan School of Management focusing on quantitative finance and financial decision making
+  description: | # this will include new lines to allow paragraphs
+    Mathematical and computational methods in finance, including stochastic processes, derivative pricing, and optimization strategies. Selected graduate coursework included Optimal Decision Making and Optimal Strategies, Itô Calculus, Stochastic Processes, Black-Scholes-Merton, Convexity-Based Strategies, and Binomial Valuation.
+
+- layout: left
+  name: |
+    MIT
+    <br> <em>Institute for Data, Systems and Society</em>
+  dates: Graduation expexted 11 / 2025
+  qualification: |
+    <em>MicroMaster Data Science</em>
+  quote: >
+    Rigorous online program from MIT covering probability, statistics, and data science fundamentals
+  description: | # this will include new lines to allow paragraphs 
+    Probability theory, statistical inference, regression analysis, machine learning, and data science methodologies. Emphasized mathematical foundations and practical applications in statistical modeling and data-driven decision making.
+
+- layout: left
+  name: |
+    University of London
+    <br> <em>London School of Economics (LSE)</em>
+  dates: Graduated 2024
+  qualification: |
+    <em>MicroBachelor Statistics</em>
+  quote: >
+    Sampling distributions, estimation, financial modelling, constrained optimisation, cost function, discounting, annuities.
+  description: | # this will include new lines to allow paragraphs
+    Rigorous part-time Bachelor in statistics based on econometrics that trains classical estimation and : method of moments, least squares, maximum likelihood, model-comparison procedures including one- and two-way ANOVA.
+
+- layout: left
+  name: University of Film Munich
+  dates: Graduated 2020
+  qualification: |
+    <em>Graduate Diploma</em>
+    <br>Film & Publishing Economics
+  quote: >
+    Applied program on production pipelines, project & budget management, media economics (brand strategy, audience analysis)
+  description: | # this will include new lines to allow paragraphs
+    Graduate degree grounded in documentary film, cross-disciplinary digital production, combined with production & media business, entrepreneurship, niche-market positioning, and portfolio-driven income models.

@@ -1,0 +1,44 @@
+- layout: top-middle
+  name: "GDP-Forecaster: SARIMAX Forecasting Toolkit"
+  link: github.com/IO-n-A/GDP-Forecaster_SARIMAX
+  github: IO-n-A/GDP-Forecaster_SARIMAX
+  quote: >
+    US, EU and China SARIMAX forecasting toolkit for quarterly GDP analysis with robust statistical methodology and data visualization.
+  description: | # this will include new lines to allow paragraphs
+    A production-ready SARIMAX forecasting system providing robust modeling with heteroskedasticity testing, residual diagnostics, and robust standard errors. Features configuration-driven workflows, multi-modal data fetching from OECD, FRED, Eurostat, and NBS, advanced evaluation with stability filtering and Diebold-Mariano testing, and data validation with SHA-256 fingerprinting. Includes comprehensive logging, archival protocols, and automated backtesting pipelines using only public data sources.
+
+- layout: top-middle
+  name: "MarketAgents: Multi-Agents LLM Financial Trading Framework"
+  link: github.com/IO-n-A/MarketAgents
+  github: IO-n-A/MarketAgents
+  quote: >
+    Production-ready multi agent framework for financial trading using Large Language Models, integrating momentum transformers.
+  description: | # this will include new lines to allow paragraphs
+    Implements state-of-the-art multi-agent systems for financial decision-making, combining the reasoning capabilities of LLMs with traditional quantitative trading approaches. Features specialized agents (sentiment, technical, fundamental, trading) collaborating in a coordinated workflow, support for multiple LLM providers (OpenAI, OpenRouter, Anthropic, Google, Ollama) with configurable reasoning modes, advanced momentum transformers with transformer architectures, and unified data fetching from financial APIs, news sources, and market data providers. Includes production features like comprehensive logging, configuration management, evaluation frameworks, backtesting with statistical aggregation, and diagnostic reports using publicly available financial data.
+
+- layout: top-middle
+  name: "TrendSent: Trend-Following Strategies with Sentiment Analysis"
+  link: github.com/IO-n-A/TrendSent
+  github: IO-n-A/TrendSent
+  quote: >
+    Trend-following strategies with advanced sentiment analysis for financial markets.
+  description: | # this will include new lines to allow paragraphs
+    Combines quantitative trend signals with qualitative sentiment insights for enhanced decision-making. Features technical indicator-based signal generation (SMA, RSI, MACD), multi-model NLP processing using FinGPT, FLANG-BERT, and custom handlers, real-time data processing with MongoDB storage, and multi-modal data ingestion from news, social media, market data, audio/video content, and cryptocurrency exchanges. Includes Docker containerization, comprehensive logging, and modular architecture using only public APIs and data sources.
+
+- layout: top-middle
+  name: "StockPredict: Machine Learning / LLM / Forecasting Pipeline"
+  link: github.com/IO-n-A/StockPredict
+  github: IO-n-A/StockPredict
+  quote: >
+    Forecasting Apple, Microsoft, Google stock returns with advanced machine learning models, robust statistical methodology and extensive evaluation capabilities.
+  description: | # this will include new lines to allow paragraphs
+    Leverages LightGBM and LSTM models with hyperparameter tuning, feature engineering, and model validation for stock price prediction. Integrates Qlib for quantitative investment research, FinBERT for sentiment analysis, technical indicators, and macroeconomic factors. Features configuration-driven workflows, multi-source data integration from Yahoo Finance, FRED, and custom sources, advanced evaluation with backtesting and cross-validation, and production infrastructure with comprehensive logging and model serialization using only public data sources.
+
+- layout: top-middle
+  name: "TradingAgents: Financial AI Algorithms Toolkit"
+  link: github.com/IO-n-A/TradingAgents
+  github: IO-n-A/TradingAgents
+  quote: >
+    Financial AI algorithms toolkit integrating natural language processing, reinforcement learning for trading, MLOps pipelines, and modular components for advanced financial analysis and automation.
+  description: | # this will include new lines to allow paragraphs
+    Combines FinNLP for financial text analysis, FinRL-Meta for portfolio optimization and trading strategies, and custom MLOps components into a unified framework. Features LoRA-finetuned sentiment models, multi-agent RL for equities, futures, and cryptocurrency trading, end-to-end pipelines for data ingestion and model deployment, and modular architecture for sentiment analysis, RL agents, and feature engineering. Includes comprehensive logging, experiment tracking with MLflow, and automated workflows using public APIs and datasets with proper attribution.

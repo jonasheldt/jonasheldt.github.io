@@ -1,0 +1,48 @@
+
+- layout: left
+  year: 2010
+  organization: |
+    Heinrich Böll <br> Foundation
+  scholarship: Field Research Scholarship
+  location: Moscow, Russian Federation
+  link: "https://eurodesk.lu/en/database/heinrich-boll-foundation-grants/"
+  description: |
+    Research-focused funding line under the Foundation’s grants scheme, supporting fieldwork and independent research stays abroad.
+    Aimed at highly qualified scholars with strong civic engagement; provides monthly support and research-related allowances as defined by the specific call.
+  quote: >
+    Research-focused funding line under the Foundation’s grants scheme
+  sources:
+    - "https://eurodesk.lu/en/database/heinrich-boll-foundation-grants/"
+
+- layout: left
+  year: 2009
+  organization: |
+    DAAD <br> Academic Exchange
+  scholarship: Fall & spring term (Stipend & Tuition)
+  location: University of Canterbury, Christchurch, New Zealand
+  link: "https://www.daad.de/en/studying-in-germany/scholarships/daad-scholarships/"
+  description: |
+    DAAD study-abroad funding for a full academic year, typically including a monthly stipend and a flat-rate travel allowance; programmes may cover tuition/fees depending on bilateral agreements or call-specific rules.
+    Designed to support academic progress, international experience, and institutional cooperation.
+  quote: >
+    University of Canterbury monthly scholarship, travel allowance; programme-specific additions) on its scholarship pages.
+  sources:
+    - "https://www.daad.de/en/studying-in-germany/scholarships/daad-scholarships/"
+    - "https://www.canterbury.ac.nz/study/getting-started/scholarships/international-student-scholarships"
+
+- layout: left
+  year: 2008
+  organization: |
+    Heinrich Böll <br> Foundation
+  scholarship: Full Scholarship (Stipend & Tuition)
+  location: Germany
+  link: "https://www.boell.de/en/scholarships"
+  description: |
+    Competitive scholarship programme supporting ~1,500 undergraduates, graduates, and doctoral scholars per year across all disciplines and nationalities.
+    Funding typically includes a monthly stipend and study-related allowances; fees/tuition are covered where applicable by host-institution policy or programme rules.
+    Selection emphasizes academic excellence and demonstrated social/political engagement (Green values, democracy, human rights).
+  quote: >
+    Long-form study funding over five years (stipend; tuition where applicable). See programme overview and application process on the Foundation’s site.
+  sources:
+    - "https://www.boell.de/en/scholarships"
+    - "https://www.boell.de/en/application"

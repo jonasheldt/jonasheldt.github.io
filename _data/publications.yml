@@ -1,0 +1,197 @@
+# Publications — normalized to match Media Projects data model
+
+- layout: left
+  year: 2023
+  title: "AUTOMOTIVE"
+  project_ref: "AUTOMOTIVE"
+  category: "Radio Essay"
+  outlet: "Deutschlandfunk Kultur"
+  outlet_meta: "National public broadcaster (ARD/Dlf network); high national reach across culture/news strands."
+  role: "Author"
+  authors: ["Jonas Heldt"]
+  link: "https://www.hoerspielundfeature.de/automotive-100.html"
+  secondary_links: []
+  quote: "Inside the automation stack at Audi—how MES/ERP, robotics, and scheduling rules shape work on the line."
+  description: |
+    An audio study of automated intralogistics at Audi: robots share aisles with humans, forklifts follow geofenced routes,
+    and MES/ERP layers log every movement. From inside these stacks the piece maps how hiring screens, monitoring, and
+    queueing rules shape task assignment and advancement. It listens for spillovers of automation adoption—how procurement shocks,
+    capital budgeting cycles, and software rollouts surface in training, temp-to-perm pathways, and the lived tempo of shift work.
+  topics: ["automation", "factory logistics", "shift work"]
+  keywording: ["AGVs", "MES/ERP", "computer vision safety", "predictive scheduling", "labour markets", "procurement cycles", "capital budgeting"]
+  location: "Ingolstadt, Germany"
+  runtime: "53 min"
+  language: "DE"
+
+- layout: left
+  year: 2020
+  title: "AUTOMOTIVE"
+  project_ref: "AUTOMOTIVE"
+  category: "Feature Documentary Film"
+  outlet: "MUBI"
+  outlet_meta: "Global curated film platform with theatrical partnerships; tens of millions of registered users."
+  role: "Author"
+  authors: ["Jonas Heldt"]
+  link: "https://mubi.com/de/gb/films/automotive-2020"
+  secondary_links: [https://www.berlinale.de/en/2020/programme/202005085.html]
+  quote: "The factory as data system—telemetry, rosters, KPIs—and people adapting to autonomous and machine intelligence production pipelines."
+  description: |
+    A close-up of algorithmic work in car manufacturing, following how AGV logistics, computer-vision safety systems,
+    and predictive scheduling reshape everyday decisions on the line. The film reads the factory as a data system—telemetry,
+    shift rosters, output KPIs—while watching people adapt: temp work cycles, training on-the-job with machine interfaces,
+    and the leverage created by just-in-time risks. It traces how small changes in scheduling code or component buffers
+    cascade into bargaining power, wages, and regional opportunity.
+  topics: ["automation", "work", "industrial transformation"]
+  keywording: ["AGVs", "computer vision", "predictive analytics", "bargaining power", "regional development", "wage dynamics"]
+  location: "Germany"
+  runtime: "80 min"
+  language: "DE"
+
+
+- layout: left
+  year: 2017
+  title: "TARA"
+  project_ref: "TARA"
+  category: "Sci-Fi Short"
+  outlet: "Berlinale"
+  outlet_meta: "A-list international film festival; global industry visibility."
+  role: "Author"
+  authors: ["Jonas Heldt"]
+  link: "https://mubi.com/en/gb/films/tara-2017"
+  secondary_links: [https://www.berlinale.de/en/2017/programme/201711789.html]
+  quote: "Walden meets Underground Railroad—escape and resistance in a retrofuturist landscape."
+  description: |
+    A speculative journey interweaving near-future world-building with self-reliance and hacker groups seeking Utopia.
+    Off-grid railways, clandestine relays, and the ethics of civil disobedience.
+  topics: ["freedom of movement", "civil resistance"]
+
+  keywording: ["informal networks"]
+  location: "Germany"
+  runtime: "30 min"
+  language: "EN"
+
+- layout: left
+  year: 2016
+  title: "TRACKERS"
+  project_ref: "TRACKERS"
+  category: "Sci-Fi Short"
+  outlet: "HFF Munich"
+  outlet_meta: "National film school; festival catalogue and archive."
+  role: "Author"
+  authors: ["Jonas Heldt"]
+  link: "https://www.hff-muenchen.de/de_DE/film-detail/trackers.3958"
+  secondary_links: []
+  quote: "Computer Vision, Identity, privacy, and power in distopian landscapes."
+  description: |
+    Narrative prototype exploring re-identification through modern computer-vision pipelines. Visual language and sound
+    mirror the anxiety of dataset-driven profiling; thematically grounded in cypherpunk ideas of privacy via cryptography.
+  topics: ["identity", "privacy", "surveillance"]
+  tech: ["computer vision", "re-identification"]
+  keywording: ["asymmetric information"]
+  location: "Munich, Germany"
+  runtime: "25 min"
+  language: "DE"
+
+- layout: left
+  year: 2016
+  title: "Rage"
+  category: "Radio Essay"
+  outlet: "Deutschlandradio"
+  outlet_meta: "National public-service radio platform; distributed via ARD/Kultur and Dlf podcasts."
+  role: "Author"
+  authors: ["Jonas Heldt", "Leo Knikman"]
+  link: "https://www.hoerspielundfeature.de/kneifen-treten-beissen-wut-100.html"
+  secondary_links: [https://www.tagesspiegel.de/gesellschaft/medien/dank-an-verdi-lob-dem-walkman-2313790.html]
+  quote: "Courts, clinics, media—how institutions and labels shape youth-violence trajectories."
+  description: |
+    Reported journey through courts, clinics, and media around youth violence. Layers case work with expert insight,
+    asking how resource bottlenecks, schooling tracks, and neighborhood exposure tilt outcomes.
+  topics: ["youth", "institutions", "policy"]
+  keywording: ["resource allocation", "public services"]
+  location: "Germany"
+  runtime: "50 min"
+  language: "DE"
+
+- layout: left
+  year: 2015
+  title: "Hinterland"
+  project_ref: "Hinterwelten"
+  category: "Documentary Film"
+  outlet: "WDR — Hier und Heute"
+  outlet_meta: "Largest regional public TV network (ARD); strong daily reach in NRW."
+  role: "Author"
+  authors: ["Jonas Heldt", "Lion Bischof", "Felicitas Sonvilla"]
+  link: "https://www.fernsehserien.de/hier-und-heute/folgen/5187-hinterwelten-798572"
+  secondary_links:
+    - "https://www.hff-muenchen.de/de_DE/film-detail/hinterwelten.3423"
+  quote: "Peripheral lives at the border: long commutes, seasonal jobs, and small policy shocks that tip outcomes."
+  description: |
+    Border-adjacent communities: how transport, housing, and seasonal employment couple together. Long drives to services,
+    patchwork households, dual-job routines. The piece shows how small policy changes can lift individuals or sink them into poverty,
+    and places the reportage in comparative note across regions with similar constraints.
+  topics: ["regional periphery", "mobility", "social infrastructure"]
+  keywording: ["poverty traps", "policy spillovers", "seasonal labour"]
+  location: "Bavaria/Thuringia border region"
+  runtime: "46 min"
+  language: "DE"
+  
+- layout: left
+  year: 2015
+  title: "Last Weekend"
+  category: "Radio Essay"
+  outlet: "Deutschlandradio"
+  outlet_meta: "National public broadcaster; feature strand with country-wide carriage."
+  role: "Author"
+  authors: ["Jonas Heldt"]
+  link: "https://www.hoerspielundfeature.de/letztes-wochenende-100.html"
+  secondary_links: []
+  quote: "Seasonal demand, informal jobs, and local life—limits of 'average' indicators for small towns."
+  description: |
+    Field recordings follow seasonal demand, informal jobs, mobility, and community life, revealing the limits of “average”
+    indicators for peripheral towns.
+  topics: ["peripheral economies", "mobility"]
+  keywording: ["seasonality", "informal work"]
+  location: "Germany (rural)"
+  runtime: "53 min"
+  language: "DE"
+
+- layout: left
+  year: 2014
+  title: "Franconia — Periphery Stories"
+  category: "Radio Essay"
+  outlet: "ARD / Deutsches Rundfunkarchiv"
+  outlet_meta: "National public broadcasting archive; persistent scholarly access across ARD/Deutschlandradio."
+  role: "Author"
+  authors: ["Jonas Heldt"]
+  link: "https://hoerspiele.dra.de/detailansicht/4626005"
+  secondary_links: []
+  quote: "Single-employer towns, commuting costs, and thin markets—edge economies in daily life."
+  description: |
+    A short study on edge-economies: how firm exit or one plant’s shift plan moves rents, bus timetables, and school choices,
+    and how households hedge with multiple small jobs.
+  topics: ["regional economics", "commuting", "single-employer risk"]
+
+  keywording: ["market thinness", "household hedging"]
+  location: "Franconia, Germany"
+  runtime: "20 min"
+  language: "DE"
+
+- layout: left
+  year: 2010
+  title: "The Distant Near"
+  category: "Field Report"
+  outlet: "Heinrich Böll Foundation"
+  outlet_meta: "Political foundation & policy research network with 30+ international offices."
+  role: "Author"
+  authors: ["Jonas Heldt"]
+  link: "https://www.boell.de/de/2010/08/31/die-weite-ferne-so-nah"
+  secondary_links: []
+  quote: "Labour, belief, survival—Moscow’s informal networks sustaining a city rebuilt on mobility."
+  description: |
+    Field report from Moscow studying migrant labour flows and the informal economy as the state retrenches.
+    Explores how regulation, fear, and faith structure who profits from work and who bears its hazards.
+  topics: ["migration", "informal economy", "urban change"]
+  keywording: ["labour markets", "shadow economy"]
+  location: "Moscow, Russia"
+  runtime: "—"
+  language: "DE"

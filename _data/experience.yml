@@ -1,0 +1,23 @@
+- layout: left
+  company: VADEX UG
+  link:
+  job_title: |
+     <em>Research & Development</em><br>
+     Systematic Trading
+  dates: 2024 - Present
+  quote: >
+    Developing algorithmic trading strategies and conducting quantitative research in market microstructure and high-frequency trading
+  description: | # this will include new lines to allow paragraphs
+    Developed and implemented algorithmic trading strategies for equities and derivatives markets. Conducted quantitative research on market microstructure and high-frequency trading dynamics. Built automated trading systems with real-time data processing and integrated risk management frameworks. Optimized portfolio performance using statistical arbitrage techniques and machine learning models for predictive analytics.
+
+- layout: left
+  company: MOTEL Film GmbH
+  link:
+  job_title: |
+    <em>Managing Director & Producer</em>
+    <br>Production Accounting
+  dates: 2021 - 2024
+  quote: >
+    Managing financial operations and accounting for film production companies with focus on budgeting and financial reporting
+  description: | # this will include new lines to allow paragraphs
+    Managed comprehensive financial operations for multiple film productions. Oversight for teams in production for VICE Media in the DACH region, financial planning, and project cost management within the German film industry. Budgeting (≤300k) and financial reporting, compliance and due diligence for diverse projects. Implemented advanced accounting systems and established financial controls to ensure efficiency.

@@ -1,0 +1,97 @@
+# Site
+repository: jonasheldt.github.io
+favicon: images/favicon.ico
+
+# Personal info
+name: Jonas Heldt
+title: Quantitative Researcher
+email: jonasheldt@vadex.net
+website: jonasheldt.github.io
+
+# Social links
+github_username: IO-n-A
+
+# About Section
+about_profile_image: images/profile.png
+about_content: |
+  <p>I build production-grade AI & ML pipelines, market risk and forecasting models in Python/SQL: <br>time-series analysis and Quantum Signal Processing (QSP) for VaR/CVaR estimation.<br>Part-time graduate student at Harvard University — Harvard Extension School — in Data Science.</p>
+  <h3>Toolkit</h3>
+  <ul>
+  <li>scikit-learn - Machine learning library for Python</li>
+  <li>PyTorch - Deep learning framework</li>
+  <li>TensorFlow - Open-source machine learning platform</li>
+  <li>JAX - High-performance numerical computing</li>
+  <li>Dask - Parallel computing library</li>
+  <li>Ray - Distributed computing framework</li>
+  <li>Apache Spark - Big data processing engine</li>
+  <li>cuML - GPU-accelerated machine learning (RAPIDS)</li>
+  <li>cuDF - GPU DataFrame library (RAPIDS)</li>
+  <li>Triton - NVIDIA's inference serving software</li>
+  <li>TensorRT - NVIDIA's high-performance deep learning inference optimizer</li>
+  <li>ONNX - Open Neural Network Exchange format</li>
+  <li>MLflow - Machine learning lifecycle management</li>
+  <li>DVC - Data Version Control for ML projects</li>
+  <li>Weights & Biases - Experiment tracking and visualization<br><br></li>
+  </ul>
+  <br><br></search>
+
+  <h3>Financial Engineering</h3>
+  <ul>
+  <li>QuantLib - Quantitative finance library</li>
+  <li>Qlib - Quantitative investment platform</li>
+  <li>Zipline - Algorithmic trading library</li>
+  <li>Backtrader - Backtesting framework for trading strategies</li>
+  <li>TA-Lib - Technical analysis library</li>
+  <li>Pandas-TA - Technical analysis indicators for pandas</li>
+  <li>PyPortfolioOpt - Portfolio optimization library</li>
+  <li>Riskfolio-Lib - Portfolio optimization and risk management</li>
+  <li>FinRL - Deep reinforcement learning for quantitative finance</li>
+  <li>AlphaPy - Automated machine learning for quantitative trading</li>
+  </ul>
+
+# Experience Section
+experience_title: Work Experience
+
+# Education Section
+education_title: Education
+
+# Projects Section
+projects_title: Projects
+
+# Certificates Section
+certificates_title: Professional Certificates
+
+# Awards Section
+awards_title: Honors & Awards
+
+# Media Projects Section
+media_projects_title: Media Related Projects
+
+# Scholarships Section
+scholarships_title: Scholarships
+
+# Teaching Experience Section
+teaching_experience_title: Teaching Experience
+
+# Publications Section
+publications_title: Publications
+
+# More Section
+more_title: Extracurriculars
+more_content: | # this will include new lines to allow paragraphs
+  Harvard Extension Student Management and Finance Club · Open Quant League · Malteser certified First Aid · MHFA certified Workplace Mental Health First Aid · Math Tutor for Disadvantaged Students (since High School)
+
+content: ["projects", "education", "experience", "extracurriculars", "media-projects", "awards", "scholarships", "teaching-experience", "publications", "press"]
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag

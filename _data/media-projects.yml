@@ -1,0 +1,40 @@
+
+- layout: top-middle
+  name: "AUTOMOTIVE"
+  link: https://mubi.com/de/gb/films/automotive-2020
+  quote:   Machine Intelligence, Human Emotion, Supply-Chain Automation, AGVs, and work ethics in automotive factories.
+  description: |
+    A study of the smart factory at AUDI, Automotive examines the algorithmic transformation of car manufacturing and its impact on work through the lens of machine intelligence, cyber-physical systems, and autonomous logistics. It documents the shift from human-centered production to AGV-coordinated supply chains, where predictive analytics, sensor fusion, and robotic process automation synchronize every step of assembly.
+  
+- layout: top-middle
+  name: "Case Study: Robotics in Manufacturing & Studio Setting"
+  link: https://www.mrmoco.com/case-studies/bayerischer-rundfunk-studiobot-case-study/
+  quote: Graduation project on 9-axis motion-tracking robot in a automotive production environment.
+  description: |
+    In cooperation with Robotics Technology Leaders (rtleaders.com): manufacturing robot in virtual production setting. 
+    Automated live motion tracking with real-time camera pose output for AR/XR
+    (FreeD / equivalent tracking data). Outputs live pose and control metadata so a virtual-set engine can render a
+    matched virtual camera in real time—enabling believable mixed-reality studios. High-DOF, ultra-smooth,
+    repeatable multi-axis motion (robotic precision) distinguishes the system from standard pedestals/PTZs.
+    Context: AGVs, machine-intelligence scheduling, and human–automation ethics on the factory floor.
+    Tech: Mark Roberts Motion Control (MRMC), PTZOptics, AR/XR graphics engines.
+
+- layout: top-middle
+  name: "TRACKERS"
+  link: https://www.hff-muenchen.de/de_DE/film-detail/trackers.3958
+  quote: >
+    Algorithms, Computer Vision, Identity — sci-fi short inspired by the cypherpunk manifesto.
+  description: |
+    Narrative prototype exploring ubiquitous tracking and re-identification through modern computer-vision pipelines. 
+    TRACKERS examines identity, privacy, and power asymmetries when intelligent machines have permeated public space. Visual language and sound design mirror the anxiety of
+    dataset-driven profiling; thematically grounded in cypherpunk principles of privacy through cryptography.
+
+- layout: top-middle
+  name: "TARA"
+  link: https://www.berlinale.de/en/2017/programme/201711789.html
+  quote: >
+    Thoreau’s Walden meets Underground Railroad — a dystopian sci-fi short film about escape and resistance.
+  description: |
+    A speculative journey that interweaves near-future world-building of an autocrat society with
+    self-reliance and hacker groups seeking their Utopia. They use off-grid railways, clandestine relays, and the ethics of
+    civil disobedience in retrofutoristic landscapes.

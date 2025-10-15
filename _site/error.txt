@@ -1,0 +1,46 @@
+io-n_a-ssd@io-n-a-ssd:~/portfolio/jonasheldt.github.io$ bundle exec jekyll build
+Configuration file: /home/io-n_a-ssd/portfolio/jonasheldt.github.io/_config.yml
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+            Source: /home/io-n_a-ssd/portfolio/jonasheldt.github.io
+       Destination: /home/io-n_a-ssd/portfolio/jonasheldt.github.io/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+      Remote Theme: Using theme sproogen/resume-theme
+  Liquid Exception: Liquid syntax error (line 247): 'endif' is not a valid delimiter for for tags. use endfor in default.md
+jekyll 3.10.0 | Error:  Liquid syntax error (line 247): 'endif' is not a valid delimiter for for tags. use endfor
+/home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/block.rb:33:in `unknown_tag': Liquid syntax error (line 247): 'endif' is not a valid delimiter for for tags. use endfor (Liquid::SyntaxError)
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/tags/for.rb:69:in `unknown_tag'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/block.rb:68:in `block in parse_body'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/block_body.rb:32:in `parse'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/block.rb:58:in `parse_body'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/tags/for.rb:60:in `parse'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/tag.rb:10:in `parse'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/block_body.rb:34:in `parse'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/document.rb:10:in `parse'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/document.rb:5:in `parse'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/template.rb:130:in `parse'
+        from /home/io-n_a-ssd/.local/share/gem/ruby/3.0.0/gems/liquid-4.0.4/lib/liquid/template.rb:114:in `parse'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:13:in `block in parse'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:49:in `measure_time'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/liquid_renderer/file.rb:12:in `parse'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:121:in `render_liquid'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:79:in `render_document'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/renderer.rb:62:in `run'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:479:in `render_regenerated'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:472:in `block in render_pages'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `each'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:471:in `render_pages'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:192:in `render'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/site.rb:71:in `process'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/command.rb:28:in `process_site'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:65:in `build'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:36:in `process'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/lib/jekyll/commands/build.rb:18:in `block (2 levels) in init_with_program'
+        from /var/lib/gems/3.0.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `block in execute'
+        from /var/lib/gems/3.0.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `each'
+        from /var/lib/gems/3.0.0/gems/mercenary-0.3.6/lib/mercenary/command.rb:220:in `execute'
+        from /var/lib/gems/3.0.0/gems/mercenary-0.3.6/lib/mercenary/program.rb:42:in `go'
+        from /var/lib/gems/3.0.0/gems/mercenary-0.3.6/lib/mercenary.rb:19:in `program'
+        from /var/lib/gems/3.0.0/gems/jekyll-3.10.0/exe/jekyll:15:in `<top (required)>'
+        from /usr/local/bin/jekyll:25:in `load'
+        from /usr/local/bin/jekyll:25:in `<main>'
