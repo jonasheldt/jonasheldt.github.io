@@ -1,6 +1,6 @@
 - layout: top-middle
   name: "GDP-Forecaster: SARIMAX Forecasting Toolkit"
-  link: github.com/IO-n-A/GDP-Forecaster_SARIMAX
+  link: https://github.com/IO-n-A/GDP-Forecaster_SARIMAX
   github: IO-n-A/GDP-Forecaster_SARIMAX
   quote: >
     US, EU and China SARIMAX forecasting toolkit for quarterly GDP analysis with robust statistical methodology and data visualization.
@@ -9,7 +9,7 @@
 
 - layout: top-middle
   name: "MarketAgents: Multi-Agents LLM Financial Trading Framework"
-  link: github.com/IO-n-A/MarketAgents
+  link: https://github.com/IO-n-A/MarketAgents
   github: IO-n-A/MarketAgents
   quote: >
     Production-ready multi agent framework for financial trading using Large Language Models, integrating momentum transformers.
@@ -18,7 +18,7 @@
 
 - layout: top-middle
   name: "TrendSent: Trend-Following Strategies with Sentiment Analysis"
-  link: github.com/IO-n-A/TrendSent
+  link: https://github.com/IO-n-A/TrendSent
   github: IO-n-A/TrendSent
   quote: >
     Trend-following strategies with advanced sentiment analysis for financial markets.
@@ -27,7 +27,7 @@
 
 - layout: top-middle
   name: "StockPredict: Machine Learning / LLM / Forecasting Pipeline"
-  link: github.com/IO-n-A/StockPredict
+  link: https://github.com/IO-n-A/StockPredict
   github: IO-n-A/StockPredict
   quote: >
     Forecasting Apple, Microsoft, Google stock returns with advanced machine learning models, robust statistical methodology and extensive evaluation capabilities.
@@ -36,7 +36,7 @@
 
 - layout: top-middle
   name: "TradingAgents: Financial AI Algorithms Toolkit"
-  link: github.com/IO-n-A/TradingAgents
+  link: https://github.com/IO-n-A/TradingAgents
   github: IO-n-A/TradingAgents
   quote: >
     Financial AI algorithms toolkit integrating natural language processing, reinforcement learning for trading, MLOps pipelines, and modular components for advanced financial analysis and automation.
