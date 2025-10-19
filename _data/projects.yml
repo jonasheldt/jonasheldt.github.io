@@ -8,9 +8,9 @@
     A production-ready SARIMAX forecasting system providing robust modeling with heteroskedasticity testing, residual diagnostics, and robust standard errors. Features configuration-driven workflows, multi-modal data fetching from OECD, FRED, Eurostat, and NBS, advanced evaluation with stability filtering and Diebold-Mariano testing, and data validation with SHA-256 fingerprinting. Includes comprehensive logging, archival protocols, and automated backtesting pipelines using only public data sources.
 
 - layout: top-middle
-  name: "MarketAgents: Multi-Agents LLM Financial Trading Framework"
-  link: https://github.com/IO-n-A/MarketAgents
-  github: IO-n-A/MarketAgents
+  name: "MarketMultiAgents: Multi-Agents LLM Financial Trading Framework"
+  link: https://github.com/IO-n-A/MarketMultiAgents
+  github: IO-n-A/MarketMultiAgents
   quote: >
     Production-ready multi agent framework for financial trading using Large Language Models, integrating momentum transformers.
   description: | # this will include new lines to allow paragraphs
